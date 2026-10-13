@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/socialevo/run_manifest.schema.json",
+  "title": "SocialEvo run manifest",
+  "type": "object",
+  "required": ["run_id", "experiment_id", "code_sha", "split", "status", "data_classification"],
+  "properties": {
+    "run_id": {"type": "string"},
+    "experiment_id": {"type": "string"},
+    "resolved_config_sha256": {"type": "string"},
+    "code_sha": {"type": "string"},
+    "task_id": {"type": "string"},
+    "task_sha256": {"type": "string"},
+    "split": {"enum": ["public", "development", "private"]},
+    "status": {"enum": ["started", "completed", "failed", "partial"]},
+    "data_classification": {"enum": ["public", "development", "private"]},
+    "artifact_uri": {"type": "string"},
+    "artifact_checksum": {"type": "string"}
+  },
+  "additionalProperties": true
+}
+

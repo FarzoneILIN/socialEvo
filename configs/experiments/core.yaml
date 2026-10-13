@@ -1,0 +1,24 @@
+experiment_id: core_main
+version: "0.1"
+status: draft
+split: development
+task_families: [E1, E2, E3, E4]
+protocols: [B0, B1, B2, B3, B4, B5, B6, B7, M]
+agent_count: 8
+budget:
+  system_tokens: pending
+  decision_slots: pending
+  tool_calls: pending
+  message_cost: pending
+seeds:
+  task: pending
+  environment: pending
+  scheduler: pending
+  decode: pending
+  agent: pending
+evaluator_version: pending
+expected_artifacts:
+  - episode_summary
+  - aggregate_results
+  - run_manifest
+

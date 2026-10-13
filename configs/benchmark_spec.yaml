@@ -1,0 +1,20 @@
+schema_version: "0.1"
+project: socialevo
+status: scaffold
+tracks:
+  atomic_relations: E0
+  complex_tasks: [E1, E2, E3, E4]
+  interventions: causal_intervention
+  transfer: recommendation
+primary_outcome: task_utility
+comparison: dev_selected_frozen_baseline_vs_free_organization
+data_policy:
+  private_root_env: SOCIALEVO_PRIVATE_ROOT
+  private_config: external_only
+  raw_runs: external_only
+freeze:
+  model: pending
+  evaluator: pending
+  task_split: pending
+  candidate_protocols: pending
+

@@ -1,0 +1,16 @@
+experiment_id: recommendation
+version: "0.1"
+status: draft
+split: development
+candidate_protocols: pending
+features: pre_task_only
+selector_freeze_before_private: required
+selection_cost: included
+budget: pending
+seeds: pending
+evaluator_version: pending
+expected_artifacts:
+  - recommendation_summary
+  - regret_estimate
+  - run_manifest
+

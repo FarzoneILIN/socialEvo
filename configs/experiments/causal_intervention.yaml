@@ -1,0 +1,16 @@
+experiment_id: causal_intervention
+version: "0.1"
+status: draft
+split: development
+interventions: [freeze_organization, rewire_authority, role_context_exchange]
+branch_type: continuation
+paired_state_snapshot: required
+protocol: M
+budget: pending
+seeds: pending
+evaluator_version: pending
+expected_artifacts:
+  - continuation_summary
+  - intervention_effect
+  - run_manifest
+

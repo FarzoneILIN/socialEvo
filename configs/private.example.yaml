@@ -1,0 +1,8 @@
+schema_version: "0.1"
+classification: private-template
+private_split_id: opaque-example-id
+private_root_env: SOCIALEVO_PRIVATE_ROOT
+manifest_version: replace-with-controlled-manifest-version
+manifest_sha256: replace-with-sha256
+# Do not add task parameters, hidden labels, private seeds, or absolute paths.
+

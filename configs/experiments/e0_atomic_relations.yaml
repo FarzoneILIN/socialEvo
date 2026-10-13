@@ -1,0 +1,26 @@
+experiment_id: e0_atomic_relations
+version: "0.1"
+status: draft
+split: development
+task_family: atomic_relations
+protocol: free_interaction
+agent_count: [2, 3]
+relation_conditions: [cooperation, competition, irrelevant, mixed]
+manipulations:
+  resource_capacity: [abundant, scarce]
+  information: [public, local]
+  capability: [symmetric, asymmetric]
+budget:
+  system_tokens: pending
+  tool_calls: pending
+  message_cost: pending
+seeds:
+  task: pending
+  environment: pending
+  agent: pending
+evaluator_version: pending
+expected_artifacts:
+  - relation_calibration_report
+  - episode_summary
+  - run_manifest
+

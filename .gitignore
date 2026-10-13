@@ -1,0 +1,55 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+secrets/
+credentials/
+keys/
+
+# Python and editor state
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.vscode/
+.idea/
+
+# Models and provider caches
+models/
+checkpoints/
+weights/
+cache/
+provider_cache/
+
+# Private data and raw runs
+data/private/
+private/
+runs/
+artifacts/
+logs/
+*.jsonl
+*.parquet
+*.arrow
+
+# Keep small public fixtures and schemas visible
+!data/public/
+!data/public/**
+!data/schemas/
+!data/schemas/**
+!results/public/
+!results/public/**
+
+# Local reports and temporary files
+dist/
+build/
+tmp/
+*.tmp
+*.bak
+*.local
+
