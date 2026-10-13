@@ -1,6 +1,0 @@
-* text=auto eol=lf
-*.md text
-*.yaml text
-*.yml text
-*.json text
-*.jsonl linguist-generated=true
