@@ -1,0 +1,37 @@
+{
+  "python_version": "3.12.14",
+  "numpy_version": "2.3.5",
+  "scope": "copied source integrity, portable core tests and scripted smoke execution",
+  "real_model_calls": 0,
+  "historical_batch_reconstruction": "not_verified; source data intentionally excluded",
+  "optional_menu_negotiation_kitchen_backends": "not_verified; external data/dependencies excluded",
+  "copy_mismatches": [],
+  "syntax_errors": [],
+  "import_origins": {
+    "atomic_experiment.runner": "atomic_experiment/runner.py",
+    "atomic_relation_followup.runner": "atomic_relation_followup/runner.py",
+    "atomic_relation_followup.runtime": "atomic_relation_followup/runtime.py",
+    "atomic_relation_followup.analysis": "atomic_relation_followup/analysis.py",
+    "atomic_relation_followup.minesweeper": "atomic_relation_followup/minesweeper.py"
+  },
+  "tests": {
+    "run": 50,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "passed": true
+  },
+  "scripted_smoke": {
+    "backend": "mock",
+    "aborted": false,
+    "conditions": [
+      "comm",
+      "no_comm"
+    ],
+    "paired_comparisons": 1,
+    "events_present": true,
+    "manifest_present": true
+  },
+  "local_modules_loaded_outside_export": [],
+  "ok": true
+}

@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+**/runs/
+test-output/
+*.sqlite
+*.sqlite3
+*.sqlite3-wal
+*.sqlite3-shm
+*.db
+*.pending
+.env
+.env.*
+.socialevo-private/
+credentials*.json
+tokens*.json
+.venv/
+.idea/
