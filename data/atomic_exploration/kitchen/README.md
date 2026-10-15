@@ -28,4 +28,4 @@
 {"choice":"wait(1)","reason":"Agent 0 is the only one who can oven/pot/serve, and the sliced pepper plus a dish are already available, so waiting avoids interfering while they likely take the slices next."}
 ```
 
-每个条件是独立对照分支，以上展示顺序不是连续对话或并行调用的全局时间线。
+每个条件是独立对照分支，不是连续对话或并行调用的全局时间线。

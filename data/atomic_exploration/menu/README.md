@@ -43,4 +43,4 @@ So I strongly favor noodles/salad/dessert options, and I contribute mostly cucum
 {"choice":["Marinated Pork Tacos","Tzatziki"],"reason":"Guaranteed feasible from my known stock alone, and among dishes I can fully cover without partner info this pair gives the highest total value on my side."}
 ```
 
-每个条件是独立对照分支，以上展示顺序不是连续对话或并行调用的全局时间线。
+每个条件是独立对照分支，不是连续对话或并行调用的全局时间线。

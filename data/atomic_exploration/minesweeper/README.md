@@ -38,4 +38,4 @@ I can’t prove a specific safe cell from my info alone. If your private clues d
 {"choice":[3,1],"reason":"No cell is provably safe from the available clues alone. [3,1] is one of the least risky symmetric choices: from [4,2]=1 and [4,4]=1, either [3,4] is safe and then [3,1],[3,2],[4,1] are all safe, or [3,4] is a mine and then exactly one of those three is a mine."}
 ```
 
-每个条件是独立对照分支，以上展示顺序不是连续对话或并行调用的全局时间线。
+每个条件是独立对照分支，不是连续对话或并行调用的全局时间线。

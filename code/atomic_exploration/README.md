@@ -15,7 +15,7 @@
 
 ## 任务与数据对应
 
-| 任务 | 先读代码 | 对应数据 |
+| 任务 | 代码 | 对应数据 |
 |---|---|---|
 | 菜单、物品谈判 | `atomic_relation_followup/decisions.py` 的 `prepare_input` 和 `score_response` | [菜单](../../data/atomic_exploration/menu/README.md)、[谈判](../../data/atomic_exploration/negotiation/README.md) |
 | 扫雷 | `atomic_relation_followup/minesweeper.py` 的同名函数 | [扫雷](../../data/atomic_exploration/minesweeper/README.md) |
@@ -38,7 +38,7 @@ python -B tools/review_data.py
 python -B tools/review_data.py --replay
 ```
 
-厨房原生操作回放需先准备固定提交版本的 7 个资源文件；下载清单及 SHA-256 在 `task_support/kitchen_resources.json`，含上游许可证和所需菜谱，不下载完整仓库：
+厨房原生操作回放需先准备固定提交版本的 7 个资源文件；下载清单在 `task_support/kitchen_resources.json`，含上游许可证和所需菜谱，不需要下载完整仓库：
 
 ```powershell
 python -B tools/prepare_kitchen.py
@@ -61,4 +61,4 @@ python -B -m atomic_experiment --backend mock --instances 1 --repeats 1
 
 `atomic_relation_followup` 保留原来的固定 74 个场景、4136 个计划位及预算协议，它不是任意任务和模型的通用采集器。完整批次的 `plan/run/resume` 还需要原始菜单和谈判源数据、厨房候选池及历史场景排除清单；这些全集不在本次小型样例中。公开包可以按上面命令复核已有样例，不据此宣称完整付费批次已经复现。
 
-通用客户端读取 `SOCIALEVO_API_KEY`、`SOCIALEVO_BASE_URL`、`SOCIALEVO_MODEL`，不依赖个人凭据脚本。模型返回名称、实际用量和失败状态应按原样记录；历史批次中使用过不同服务和模型别名，不能仅凭同一家模型名认定权重一致。
+通用客户端读取 `SOCIALEVO_API_KEY`、`SOCIALEVO_BASE_URL`、`SOCIALEVO_MODEL`，不依赖个人凭据脚本。模型返回名称、实际用量和失败状态应按原样记录。

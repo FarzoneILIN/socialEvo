@@ -22,8 +22,8 @@
     },
     {
       "path": "kitchen/README.md",
-      "sha256": "6e4e241533153fd3dcebb716c01432b6773b4ac6d1d268f968534d2f0c7ae073",
-      "bytes": 1361
+      "sha256": "3a9d709918705b4323bb40e9750870ea8ac74452645cdb4dcab3672d8f92ba0c",
+      "bytes": 1343
     },
     {
       "path": "kitchen/requests.jsonl",
@@ -47,8 +47,8 @@
     },
     {
       "path": "menu/README.md",
-      "sha256": "cefd8854556bd635b3b87b08d352ea5493df487ea6252e9ca9725971ba7abb9e",
-      "bytes": 2067
+      "sha256": "d1576549fe9bc3118681387d523da943996563dc8329552839b78753140a7e8c",
+      "bytes": 2049
     },
     {
       "path": "menu/requests.jsonl",
@@ -72,8 +72,8 @@
     },
     {
       "path": "minesweeper/README.md",
-      "sha256": "f1aa51256c11c1fd3e60118574091836dbcd245057ff7c0a984025d6412bf29c",
-      "bytes": 1920
+      "sha256": "e969d988db2df9cd78a6907a02029f8fe0e37e530f1374815205acf4b143c139",
+      "bytes": 1902
     },
     {
       "path": "minesweeper/requests.jsonl",
@@ -97,8 +97,8 @@
     },
     {
       "path": "negotiation/README.md",
-      "sha256": "4f9ec851265e7014cbbbeb0a05d5766ca09502f1b0b541543df06ef0c85da42b",
-      "bytes": 1025
+      "sha256": "4f3806662d471227c07ab963f1d8db076823d89e21c0594780233e0c9b324243",
+      "bytes": 1007
     },
     {
       "path": "negotiation/requests.jsonl",
@@ -112,8 +112,8 @@
     },
     {
       "path": "README.md",
-      "sha256": "971b500ebd0847d9adcd929fafae0256d3794ebb0eefc9ba76e6c75d61363559",
-      "bytes": 3145
+      "sha256": "899b1f139f073c6462607a3a3ee6e25fdaf060fd254ac59a84ac47ff03dc7e29",
+      "bytes": 2998
     },
     {
       "path": "sources.json",
@@ -137,8 +137,8 @@
     },
     {
       "path": "sudoku/README.md",
-      "sha256": "404e297625261f2aa4fc32ebe7f74c1ef6c98b0160bc0345480d11299c161754",
-      "bytes": 1360
+      "sha256": "26f9a5aae02c587c7cadfa19916ba58ace6fea07c3569ce4066811f13feed7a8",
+      "bytes": 1342
     },
     {
       "path": "sudoku/requests.jsonl",

@@ -20,4 +20,4 @@
 {"digit":7,"explanation":"Row 4 is 2,1,8,3,_,6,5,9,4, so the only missing digit is 7. Therefore r4c5=7."}
 ```
 
-每个条件是独立对照分支，以上展示顺序不是连续对话或并行调用的全局时间线。
+每个条件是独立对照分支，不是连续对话或并行调用的全局时间线。

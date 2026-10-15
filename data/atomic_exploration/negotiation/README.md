@@ -20,4 +20,4 @@ Opening proposal: B takes 1 hat and 2 balls; A gets 1 book and 1 ball. In offer 
 {"choice":[0,1,1],"reason":"Gives A the book and 2 balls for value 5 as requested, while I keep the hat and 1 ball for value 7."}
 ```
 
-每个条件是独立对照分支，以上展示顺序不是连续对话或并行调用的全局时间线。
+每个条件是独立对照分支，不是连续对话或并行调用的全局时间线。
