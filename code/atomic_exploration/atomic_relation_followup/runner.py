@@ -10,7 +10,7 @@ import random
 import sqlite3
 import time
 
-from relation_experiments.storage import redact, usage_valid
+from utils.io import redact, usage_valid
 from .protocol import ROOT, CAPS, MODULES, POLICY, adapter, canonical, digest, stamp, write, BudgetStop, wrapped_input, scored
 from .runtime import Ledger, WorkerLock, make_client, TERMINAL
 
@@ -20,18 +20,11 @@ def read(path):
 
 
 def code_hashes():
-    packages=('atomic_relation_followup','atomic_experiment','atomic_definition_experiments',
-              'quick_screen','focused_validation','influence_experiments','mechanism_experiments',
-              'minesweeper_experiments','relation_experiments','task_experiments','lbf_upgrade')
-    files=set()
-    for package in packages:
-        files.update(p for p in (ROOT/package).rglob('*.py')
-                     if not any(part in ('runs','tests','sources','reports') for part in p.relative_to(ROOT/package).parts))
-    native=ROOT/'focused_validation/sources/collab/upstream/lib/overcooked_ai/overcooked_ai_py'
-    files.update(native.rglob('*.py'))
-    files.update(ROOT/'tools'/name for name in ('with_socialevo_api.ps1',
-                 'socialevo_credentials.ps1', 'run_atomic_relation_followup.ps1'))
-    return {p.relative_to(ROOT).as_posix():hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(files)}
+    """Hash the published implementation; private launcher scripts are not dependencies."""
+    files = sorted(p for package in ('atomic_relation_followup', 'atomic_experiment', 'task_support', 'utils')
+                   for p in (ROOT/package).rglob('*.py')
+                   if not {'tests', 'sources'} & set(p.relative_to(ROOT/package).parts))
+    return {p.relative_to(ROOT).as_posix(): hashlib.sha256(p.read_bytes()).hexdigest() for p in files}
 
 
 def source_hashes(payloads):
@@ -50,7 +43,7 @@ def source_hashes(payloads):
         elif isinstance(value,list):
             for item in value:visit(item)
     visit(payloads)
-    layout=ROOT/'focused_validation/sources/collab/upstream/lib/overcooked_ai/overcooked_ai_py/data/layouts/new_env.layout'
+    layout=ROOT/'task_support/sources/collab/upstream/lib/overcooked_ai/overcooked_ai_py/data/layouts/new_env.layout'
     if layout.exists():values[str(layout.resolve())]=hashlib.sha256(layout.read_bytes()).hexdigest()
     return values
 
@@ -108,7 +101,7 @@ def prepare(root):
                   slots=[s for p in payloads.values() for s in p['slots']],
                   code_hashes=code_hashes(),source_hashes=source_hashes(payloads),
                   research_role='exploratory local relation measurement supporting later self-organization',
-                  statistical_rules=read(ROOT/'notes/原子关系探索_补强实验配额_2026-10-08.json'))
+                  statistical_rules=read(ROOT/'atomic_relation_followup/design.json'))
     manifest['design_sha256']=digest(manifest)
     verification=verify_manifest(manifest)
     if not verification['ok']:raise BudgetStop('preflight_manifest_failed')

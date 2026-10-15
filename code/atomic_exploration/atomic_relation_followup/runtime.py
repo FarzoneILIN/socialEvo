@@ -12,10 +12,10 @@ import time
 from types import SimpleNamespace
 import urllib.parse
 
-from atomic_experiment.client import ApiError, ChatClient
-from atomic_definition_experiments.runtime import WorkerLock, usage_cost, _lock_held
-from lbf_upgrade.billing import allowance_snapshot
-from relation_experiments.storage import redact
+from utils.client import ApiError, ChatClient
+from utils.execution import WorkerLock, usage_cost, _lock_held
+from utils.billing import allowance_snapshot
+from utils.io import redact
 from .protocol import POLICY, CAPS, BudgetStop, canonical, digest, stamp, write
 
 RETRYABLE = frozenset({'http_429','http_500','http_502','http_503','http_504',

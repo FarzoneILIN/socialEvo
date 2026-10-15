@@ -1,7 +1,7 @@
 import argparse
 from pathlib import Path
 
-from .client import ChatClient, MockClient
+from utils.client import ChatClient, MockClient
 from .config import Config
 from .runner import run
 

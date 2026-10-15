@@ -1,0 +1,208 @@
+{
+  "selection_rule": "First frozen case per task and batch in the earlier complete export; one first case for each Minesweeper module. Selection does not inspect outcomes. All existing records and plans of selected cases retained.",
+  "full_export_saved_replies": 4728,
+  "source_export_manifest_sha256": "4673e30e5aeea1944de55fca38aefa1cce9974b75c920c74163bb90b6fb00e6e",
+  "sources": [
+    {
+      "source": "data/01_menu/definition_v1/planned_slots.jsonl",
+      "sha256": "c6efdca3aaa6ff543a8e4de6a904b6ab09721481a3da9c8c0441b0c5b23e1c26",
+      "selected_rows": 26,
+      "source_rows": 208
+    },
+    {
+      "source": "data/01_menu/definition_v1/requests.jsonl",
+      "sha256": "8c34b736f0dab5aee3111a7e706791376d4551436c099ced2a294434d35826af",
+      "selected_rows": 26,
+      "source_rows": 208
+    },
+    {
+      "source": "data/01_menu/definition_v1/attempts.jsonl",
+      "sha256": "5a12fef46232b02c7a429727a4da6534ff426d9a8dcf4b91b8f0c4e180d7fb9e",
+      "selected_rows": 26,
+      "source_rows": 218
+    },
+    {
+      "source": "data/01_menu/definition_v1/cases.jsonl",
+      "sha256": "fa37151f09780247a95c2d7361d163b8096379a032f78727f8d5987a575e5900",
+      "selected_case_ids": [
+        "T01_atomic_influence_menu_level_3_game_0016"
+      ]
+    },
+    {
+      "source": "data/01_menu/followup_v1/planned_slots.jsonl",
+      "sha256": "ff6b9a1a6ee7718f1aabb670443520a1bdc207f71c075b55238ca8d847ffe550",
+      "selected_rows": 73,
+      "source_rows": 592
+    },
+    {
+      "source": "data/01_menu/followup_v1/requests.jsonl",
+      "sha256": "340fe45c8428d84f14dd9fc09e1dfc45f7063a8899588f533acf8e040f752e5e",
+      "selected_rows": 73,
+      "source_rows": 592
+    },
+    {
+      "source": "data/01_menu/followup_v1/attempts.jsonl",
+      "sha256": "057a79edbcbb734be68a44476e1fb939263c648f8d6581c7561d019e79e6c47c",
+      "selected_rows": 77,
+      "source_rows": 647
+    },
+    {
+      "source": "data/01_menu/followup_v1/cases.jsonl",
+      "sha256": "4629bd9fcdf9a8457336bb19686fed43777abef75dc035653c8ab0c84a102567",
+      "selected_case_ids": [
+        "menu_level_3_game_0024"
+      ]
+    },
+    {
+      "source": "data/02_minesweeper/followup_v1/planned_slots.jsonl",
+      "sha256": "fbc9d439e809530301d59b75cfdfc77ddd3cdc009006d8a00604049e070b9dee",
+      "selected_rows": 152,
+      "source_rows": 2328
+    },
+    {
+      "source": "data/02_minesweeper/followup_v1/requests.jsonl",
+      "sha256": "290a3834b487fa1511c1bdc67205839c5a670c1fd4eb500557df060aaadd5395",
+      "selected_rows": 152,
+      "source_rows": 2328
+    },
+    {
+      "source": "data/02_minesweeper/followup_v1/attempts.jsonl",
+      "sha256": "3b1b494b7300fb37cfc9386009b1e2679214eeb97cfd1f3a4631da0e485d85e5",
+      "selected_rows": 157,
+      "source_rows": 2405
+    },
+    {
+      "source": "data/02_minesweeper/followup_v1/cases.jsonl",
+      "sha256": "e7a5a2ccaf59890599cf8eefd04224cea894e4ec5c459f875e26b0b793288706",
+      "selected_case_ids": [
+        "minesweeper_fact_advice.board_00",
+        "minesweeper_natural.board_00"
+      ]
+    },
+    {
+      "source": "data/03_negotiation/definition_v1/planned_slots.jsonl",
+      "sha256": "f0857630411969a71ae51e9a7b54dcb1f7f276a809eee1a7c426be1cf295c828",
+      "selected_rows": 24,
+      "source_rows": 288
+    },
+    {
+      "source": "data/03_negotiation/definition_v1/requests.jsonl",
+      "sha256": "3498827905bdae8b38559b3daafcce29e45b184e9c9e8c7538cc9f3a85d53407",
+      "selected_rows": 24,
+      "source_rows": 288
+    },
+    {
+      "source": "data/03_negotiation/definition_v1/attempts.jsonl",
+      "sha256": "87131bdb5b0c394c368ec6dae1f941e625df39f78ce939aeb99299b76f2f51b7",
+      "selected_rows": 24,
+      "source_rows": 292
+    },
+    {
+      "source": "data/03_negotiation/definition_v1/cases.jsonl",
+      "sha256": "1325fe376b2dc46aef955a1b289e314ef345969d002c0c5f969c46e4df18079f",
+      "selected_case_ids": [
+        "T02_atomic_dnd_pair_86"
+      ]
+    },
+    {
+      "source": "data/03_negotiation/followup_v1/planned_slots.jsonl",
+      "sha256": "6410af0b2a66f1bf22cd4ca08776a36d670c4d1e5565757892c3e868ada237c9",
+      "selected_rows": 81,
+      "source_rows": 924
+    },
+    {
+      "source": "data/03_negotiation/followup_v1/requests.jsonl",
+      "sha256": "b6b74d9ec7627e757025fb3e5545c7900532aa8394a652998f9a87e529ea56c5",
+      "selected_rows": 81,
+      "source_rows": 924
+    },
+    {
+      "source": "data/03_negotiation/followup_v1/attempts.jsonl",
+      "sha256": "0700952760fcfb4e6c25a3fc173550f082c0a81f9bf40b06ac63d779692df492",
+      "selected_rows": 38,
+      "source_rows": 932
+    },
+    {
+      "source": "data/03_negotiation/followup_v1/cases.jsonl",
+      "sha256": "05ded48df617f35d84e2a560679afdeac62a10d4be257c05941da4eeffc4adb4",
+      "selected_case_ids": [
+        "negotiation_record_87"
+      ]
+    },
+    {
+      "source": "data/04_kitchen/definition_v1/planned_slots.jsonl",
+      "sha256": "6ee356553fa121927a487231282e9f2c3cfa2b820c11100f16451bb50126fcf3",
+      "selected_rows": 16,
+      "source_rows": 96
+    },
+    {
+      "source": "data/04_kitchen/definition_v1/requests.jsonl",
+      "sha256": "3a04c395f63582e3d6e091191d817f4cbf07daa40bdc65e98b6851f15df34c16",
+      "selected_rows": 16,
+      "source_rows": 96
+    },
+    {
+      "source": "data/04_kitchen/definition_v1/attempts.jsonl",
+      "sha256": "0897d164d46a6762ddfd1de24ef98efa015ac1040283b467c2c8c5b655006b13",
+      "selected_rows": 16,
+      "source_rows": 96
+    },
+    {
+      "source": "data/04_kitchen/definition_v1/cases.jsonl",
+      "sha256": "cf3c0eccdb985e0a891d76bb383f119e4fd8aa778aad62774c4906a2313dbbd2",
+      "selected_case_ids": [
+        "T03_atomic_kitchen_662eada8cae9d062"
+      ]
+    },
+    {
+      "source": "data/04_kitchen/followup_v1/planned_slots.jsonl",
+      "sha256": "7bc3a73a58d2139d23242460916a57575013119c783505b89ff4e9af2214b3aa",
+      "selected_rows": 43,
+      "source_rows": 292
+    },
+    {
+      "source": "data/04_kitchen/followup_v1/requests.jsonl",
+      "sha256": "29855c1d7f631635d5fffd06ed070e9b485f828619f149fca8f35f51017207d2",
+      "selected_rows": 43,
+      "source_rows": 292
+    },
+    {
+      "source": "data/04_kitchen/followup_v1/attempts.jsonl",
+      "sha256": "eff30e18ed857e255129c325f9068a2a664e3a120730c163b83c0b9a680b44d9",
+      "selected_rows": 46,
+      "source_rows": 315
+    },
+    {
+      "source": "data/04_kitchen/followup_v1/cases.jsonl",
+      "sha256": "69610c3a683dfcb87a48a210474a5c1f7fe1a5db97f45bdd16b4673f5b277ec2",
+      "selected_case_ids": [
+        "followup_kitchen_fbf8852532bfa7db"
+      ]
+    },
+    {
+      "source": "data/05_sudoku/sudoku_preflight/planned_slots.jsonl",
+      "sha256": "c54ee3528eefc75e3b0422ee880eadb72f7d1c88de8ecd8aa1192df882c24a53",
+      "selected_rows": 32,
+      "source_rows": 384
+    },
+    {
+      "source": "data/05_sudoku/sudoku_preflight/requests.jsonl",
+      "sha256": "550905170d1619bbd2d2cb544bff68083702957bcbf40df6c9335daca1071c66",
+      "selected_rows": 8,
+      "source_rows": 86
+    },
+    {
+      "source": "data/05_sudoku/sudoku_preflight/attempts.jsonl",
+      "sha256": "cff77c82d4b4caaa8c3514d63f4631f04242c28532f8569306e26e05bfdf0466",
+      "selected_rows": 9,
+      "source_rows": 97
+    },
+    {
+      "source": "data/05_sudoku/sudoku_preflight/cases.jsonl",
+      "sha256": "008b3042684473388d7bb30aa59c6d25590adb8ccb127e122d525d7d2e0d96ff",
+      "selected_case_ids": [
+        "sudoku_01"
+      ]
+    }
+  ]
+}

@@ -7,7 +7,7 @@ from dataclasses import asdict
 from datetime import datetime, timezone
 from pathlib import Path
 
-from .client import ApiError
+from utils.client import ApiError
 from .environment import Environment, make_task, parse_action
 from .recording import Recorder
 

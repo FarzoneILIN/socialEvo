@@ -1,0 +1,40 @@
+{
+  "commit": "f7b66f0082b2a7c950ff7ee9b25ad588b5751197",
+  "files": [
+    {
+      "path": "LICENSE",
+      "sha256": "06dcddbb6908a0c6dd4a9e8ec822eea41d5a460a53089fecccc8a68049e99241",
+      "url": "https://raw.githubusercontent.com/YusaeMeow/Collab-Overcooked/f7b66f0082b2a7c950ff7ee9b25ad588b5751197/LICENSE"
+    },
+    {
+      "path": "lib/overcooked_ai/overcooked_ai_py/data/layouts/__init__.py",
+      "sha256": "a90fb4f7d8d57742b240fe6e8e832c56ad14c9177124e9a161ec5b2986af3b4a",
+      "url": "https://raw.githubusercontent.com/YusaeMeow/Collab-Overcooked/f7b66f0082b2a7c950ff7ee9b25ad588b5751197/lib/overcooked_ai/overcooked_ai_py/data/layouts/__init__.py"
+    },
+    {
+      "path": "lib/overcooked_ai/overcooked_ai_py/data/layouts/new_env.layout",
+      "sha256": "b6e5169c9daa42de158c7ee6939a0420cd42379b0b4a92efc15d20d7e4becdfd",
+      "url": "https://raw.githubusercontent.com/YusaeMeow/Collab-Overcooked/f7b66f0082b2a7c950ff7ee9b25ad588b5751197/lib/overcooked_ai/overcooked_ai_py/data/layouts/new_env.layout"
+    },
+    {
+      "path": "lib/overcooked_ai/overcooked_ai_py/mdp/actions.py",
+      "sha256": "eabb67415d7a46f1c970018f314712f99c217328f41f32dd9e9857e64d76d1f1",
+      "url": "https://raw.githubusercontent.com/YusaeMeow/Collab-Overcooked/f7b66f0082b2a7c950ff7ee9b25ad588b5751197/lib/overcooked_ai/overcooked_ai_py/mdp/actions.py"
+    },
+    {
+      "path": "lib/overcooked_ai/overcooked_ai_py/mdp/overcooked_mdp.py",
+      "sha256": "c9d21fcfbb2bd1b1f8621af5924dda269330a0fb0ebe2e414ca05538055c8122",
+      "url": "https://raw.githubusercontent.com/YusaeMeow/Collab-Overcooked/f7b66f0082b2a7c950ff7ee9b25ad588b5751197/lib/overcooked_ai/overcooked_ai_py/mdp/overcooked_mdp.py"
+    },
+    {
+      "path": "lib/overcooked_ai/overcooked_ai_py/utils.py",
+      "sha256": "390728b691ced9b2f464ec87d589186c69b91707bf0df665030922043073a4a3",
+      "url": "https://raw.githubusercontent.com/YusaeMeow/Collab-Overcooked/f7b66f0082b2a7c950ff7ee9b25ad588b5751197/lib/overcooked_ai/overcooked_ai_py/utils.py"
+    },
+    {
+      "path": "src/prompts/recipe/3_baked_bell_pepper_soup.txt",
+      "sha256": "60cdc00228b9c77acad969e4d06788a51ee1f9ca4f1cacd9dc1950aad8216c75",
+      "url": "https://raw.githubusercontent.com/YusaeMeow/Collab-Overcooked/f7b66f0082b2a7c950ff7ee9b25ad588b5751197/src/prompts/recipe/3_baked_bell_pepper_soup.txt"
+    }
+  ]
+}

@@ -8,7 +8,7 @@ from http.server import BaseHTTPRequestHandler, HTTPServer
 from pathlib import Path
 from unittest.mock import patch
 
-from atomic_experiment.client import ApiError, ChatClient, MockClient, Reply
+from utils.client import ApiError, ChatClient, MockClient, Reply
 from atomic_experiment.config import Config
 from atomic_experiment.environment import Environment, make_task, parse_action
 from atomic_experiment.recording import Recorder

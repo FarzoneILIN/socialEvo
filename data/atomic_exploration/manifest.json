@@ -1,0 +1,154 @@
+{
+  "files": [
+    {
+      "path": ".gitattributes",
+      "sha256": "a79691a93b46e49ce460c26ef22afcc03d6eca1e63bf2edbc20e96159510f6c9",
+      "bytes": 14
+    },
+    {
+      "path": "kitchen/attempts.jsonl",
+      "sha256": "7965fe707a9f253b8c0fd154e660be60075babf7a804ded54502ed67c278a9ce",
+      "bytes": 20696
+    },
+    {
+      "path": "kitchen/cases.jsonl",
+      "sha256": "266f3c004ba3428a170a416759bb4971654a1d70b10762861102180f10aec891",
+      "bytes": 147521
+    },
+    {
+      "path": "kitchen/planned_slots.jsonl",
+      "sha256": "aa12d4f500c314099bc43b9c48f594b8c333d21608a6700c87c554b404b5c71a",
+      "bytes": 18199
+    },
+    {
+      "path": "kitchen/README.md",
+      "sha256": "6e4e241533153fd3dcebb716c01432b6773b4ac6d1d268f968534d2f0c7ae073",
+      "bytes": 1361
+    },
+    {
+      "path": "kitchen/requests.jsonl",
+      "sha256": "09816230822073dcf385995cb39c9a8859064a77157c6b2491bde2b3d2e59d9a",
+      "bytes": 423931
+    },
+    {
+      "path": "menu/attempts.jsonl",
+      "sha256": "c1c9b7a3a2050a4087ad5c93f918387ecead11be4e17996af834d5fde5a9d3c1",
+      "bytes": 34773
+    },
+    {
+      "path": "menu/cases.jsonl",
+      "sha256": "032d86c72b51556c8e0e33df3c898b6187cf90aab572bdbe0efd410e86c878ab",
+      "bytes": 43608
+    },
+    {
+      "path": "menu/planned_slots.jsonl",
+      "sha256": "5967c50ffa1377f75cf753a1291df1a627cc6890d7c52c2a86a04a815ac6dd56",
+      "bytes": 35929
+    },
+    {
+      "path": "menu/README.md",
+      "sha256": "cefd8854556bd635b3b87b08d352ea5493df487ea6252e9ca9725971ba7abb9e",
+      "bytes": 2067
+    },
+    {
+      "path": "menu/requests.jsonl",
+      "sha256": "b0f054f7c4f25da4662c97a5874a361f774f410a5ffe53603514ac295d560fa8",
+      "bytes": 608113
+    },
+    {
+      "path": "minesweeper/attempts.jsonl",
+      "sha256": "67caa877da87760ae16f007937738cd90d233c44a0826ed7d6f6e623d5d04881",
+      "bytes": 52691
+    },
+    {
+      "path": "minesweeper/cases.jsonl",
+      "sha256": "5ff4e9b6ec3195f2fca0f4bc6b8d5a59784e7c686fe93d59386bd01f68d55497",
+      "bytes": 14314
+    },
+    {
+      "path": "minesweeper/planned_slots.jsonl",
+      "sha256": "44c3afffe8f91da3cc1c774ccbc5958a6cc9115c9eb86dc311037cc5d08b7d68",
+      "bytes": 65552
+    },
+    {
+      "path": "minesweeper/README.md",
+      "sha256": "f1aa51256c11c1fd3e60118574091836dbcd245057ff7c0a984025d6412bf29c",
+      "bytes": 1920
+    },
+    {
+      "path": "minesweeper/requests.jsonl",
+      "sha256": "b969b68522318ffe9f2c8c9273ba5e8ad091743858b118831782bbc1cf7c992a",
+      "bytes": 677489
+    },
+    {
+      "path": "negotiation/attempts.jsonl",
+      "sha256": "72eb69fa32ca4f32e4a30a9449c26d13f72026266aa53ccd566d40c4ea6d93b5",
+      "bytes": 20482
+    },
+    {
+      "path": "negotiation/cases.jsonl",
+      "sha256": "601f8e3c76f816c8496fcb798a46871a2bfce98398c069be0051246138298644",
+      "bytes": 14816
+    },
+    {
+      "path": "negotiation/planned_slots.jsonl",
+      "sha256": "2670e13e14212734afcc3cf9bd250ae12d44fc652391ce45c76a5dc578bebc59",
+      "bytes": 39810
+    },
+    {
+      "path": "negotiation/README.md",
+      "sha256": "4f9ec851265e7014cbbbeb0a05d5766ca09502f1b0b541543df06ef0c85da42b",
+      "bytes": 1025
+    },
+    {
+      "path": "negotiation/requests.jsonl",
+      "sha256": "0d22fdfb190f3e3f9a3a37bb731fd82e40d4f5ab11d9ccf0cbdc837c3b5ed6ae",
+      "bytes": 232860
+    },
+    {
+      "path": "progress_2026-10-12.md",
+      "sha256": "3b9089f7f572b205946b42ae53784728641cab324c26c364177cb0c0e53a9a8f",
+      "bytes": 8763
+    },
+    {
+      "path": "README.md",
+      "sha256": "971b500ebd0847d9adcd929fafae0256d3794ebb0eefc9ba76e6c75d61363559",
+      "bytes": 3145
+    },
+    {
+      "path": "sources.json",
+      "sha256": "4ea8d26d97e0fd6d06b42c2407fab82abb3432d8befb7b9ce3adaf60343f28f9",
+      "bytes": 7450
+    },
+    {
+      "path": "sudoku/attempts.jsonl",
+      "sha256": "cf1c824672ef85fa3b766fe5114c7a7389c5c5098b5e5d305dad2ba00e848413",
+      "bytes": 2472
+    },
+    {
+      "path": "sudoku/cases.jsonl",
+      "sha256": "eaba17c148464d70b565a814720e1408f079d6dcbc53ea30c4139d58a55a3065",
+      "bytes": 2563
+    },
+    {
+      "path": "sudoku/planned_slots.jsonl",
+      "sha256": "c2106d12461bb9e0cb746af844d479fe29f74f643105f21a08caa7de5bd3e5a9",
+      "bytes": 7788
+    },
+    {
+      "path": "sudoku/README.md",
+      "sha256": "404e297625261f2aa4fc32ebe7f74c1ef6c98b0160bc0345480d11299c161754",
+      "bytes": 1360
+    },
+    {
+      "path": "sudoku/requests.jsonl",
+      "sha256": "ceff28dd48b89afd5504736ab41606f8dff96ba9f82c460ca0135c5d6afd4ffc",
+      "bytes": 32701
+    },
+    {
+      "path": "summary.json",
+      "sha256": "5b1e15302a45ff28bcff93ddaf3ad46b04c5868cde82d670e100462794cd117a",
+      "bytes": 2262
+    }
+  ]
+}

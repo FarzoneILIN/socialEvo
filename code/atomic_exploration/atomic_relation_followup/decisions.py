@@ -15,10 +15,10 @@ import json
 import math
 from pathlib import Path
 
-from atomic_definition_experiments.decision_cases import _historical_keys, _dnd_selection_data
-from focused_validation.sources.decisions.extract_snapshots import RestrictedPublicDataUnpickler, plain
-from influence_experiments.cases import _menu_case, digest as historical_semantic_digest
-from quick_screen.adapters.decisions import _menu_score_data, _menu_optimum
+from task_support.decision_cases import _historical_keys, _dnd_selection_data
+from task_support.public_data import RestrictedPublicDataUnpickler, plain
+from task_support.cases import _menu_case, digest as historical_semantic_digest
+from task_support.menu_score import _menu_score_data, _menu_optimum
 
 
 MAIN_GROUPS = (("normal", 1), ("normal", 2), ("hidden", 1), ("hidden", 2))

@@ -2,7 +2,7 @@ import tempfile
 from pathlib import Path
 import unittest
 
-from atomic_experiment.client import Reply, ApiError
+from utils.client import Reply, ApiError
 from atomic_relation_followup.protocol import POLICY, BudgetStop
 from atomic_relation_followup.runtime import Ledger, WorkerLock
 
