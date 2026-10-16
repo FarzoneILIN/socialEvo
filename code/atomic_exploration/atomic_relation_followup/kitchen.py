@@ -11,9 +11,9 @@ import json
 import re
 from pathlib import Path
 
-from focused_validation.adapters import collab
-from atomic_definition_experiments import kitchen_cases as historical
-from influence_experiments.cases import _historical_cases
+from task_support import collab
+from task_support import kitchen_cases as historical
+from task_support.cases import _historical_cases
 
 MODULE = "kitchen"
 SYSTEM = "Use only the supplied current observations. No tools. Return only the requested JSON."

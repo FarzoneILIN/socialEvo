@@ -15,3 +15,6 @@ credentials*.json
 tokens*.json
 .venv/
 .idea/
+
+# Downloaded, hash-pinned kitchen resources are prepared locally.
+task_support/sources/

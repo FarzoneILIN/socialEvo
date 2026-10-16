@@ -8,7 +8,7 @@ import threading
 import unittest
 from unittest import mock
 
-from atomic_experiment.client import ApiError, Reply
+from utils.client import ApiError, Reply
 from atomic_relation_followup import runtime
 from atomic_relation_followup import runner
 from atomic_relation_followup.protocol import BudgetStop, POLICY, canonical, digest, stamp

@@ -1,37 +1,36 @@
 {
-  "python_version": "3.12.14",
-  "numpy_version": "2.3.5",
-  "scope": "copied source integrity, portable core tests and scripted smoke execution",
   "real_model_calls": 0,
-  "historical_batch_reconstruction": "not_verified; source data intentionally excluded",
-  "optional_menu_negotiation_kitchen_backends": "not_verified; external data/dependencies excluded",
-  "copy_mismatches": [],
+  "scope": "local tests, scripted smoke, submitted data integrity and saved-reply replay",
   "syntax_errors": [],
-  "import_origins": {
-    "atomic_experiment.runner": "atomic_experiment/runner.py",
-    "atomic_relation_followup.runner": "atomic_relation_followup/runner.py",
-    "atomic_relation_followup.runtime": "atomic_relation_followup/runtime.py",
-    "atomic_relation_followup.analysis": "atomic_relation_followup/analysis.py",
-    "atomic_relation_followup.minesweeper": "atomic_relation_followup/minesweeper.py"
-  },
   "tests": {
     "run": 50,
     "failures": 0,
     "errors": 0,
-    "skipped": 0,
-    "passed": true
+    "skipped": 0
   },
   "scripted_smoke": {
-    "backend": "mock",
     "aborted": false,
     "conditions": [
       "comm",
       "no_comm"
     ],
-    "paired_comparisons": 1,
-    "events_present": true,
-    "manifest_present": true
+    "paired_comparisons": 1
   },
-  "local_modules_loaded_outside_export": [],
+  "submitted_data": {
+    "status": "passed",
+    "files_checked": 30,
+    "cases": 9,
+    "recorded_slots": 423,
+    "saved_replies": 368,
+    "attempts": 393
+  },
+  "saved_reply_replay": {
+    "status": "passed",
+    "archived_records_not_rescored": 66,
+    "inputs_rebuilt": 306,
+    "scores_rebuilt": 357,
+    "mismatches": [],
+    "real_model_calls": 0
+  },
   "ok": true
 }

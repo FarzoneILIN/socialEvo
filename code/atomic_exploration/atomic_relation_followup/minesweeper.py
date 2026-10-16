@@ -14,7 +14,7 @@ from pathlib import Path
 import random
 import time
 
-from minesweeper_experiments.boards import (
+from task_support.minesweeper_boards import (
     _cells, _configuration_proof, _make_state, _neighbors,
     possible_configurations, validate_state,
 )

@@ -10,7 +10,7 @@
 
 ## 先跑起来
 
-只依赖标准库，Python 3.10+。在项目根目录下执行：
+只依赖标准库，Python 3.10+。在 `code/atomic_exploration/` 下执行：
 
 ```powershell
 python -m unittest discover -s atomic_experiment/tests -v
@@ -43,18 +43,18 @@ python -m atomic_experiment --backend mock --instances 2 --repeats 2
 |-|-|
 |`config.py`|配置和预算检查|
 |`environment.py`|出题、私有观测、动作校验、客观评分|
-|`client.py`|模型接口，可替换；默认走离线脚本|
+|`../utils/client.py`|公共模型接口，可替换；默认走离线脚本|
 |`runner.py`|隔离历史、同步轮次、两个条件配对跑、汇总|
 |`recording.py`|逐步 JSONL 日志 + JSON 结果|
 |`__main__.py`|命令行入口|
 
-要换模型接口只改 `client.py`，环境和评分不用动。
+要换模型接口可修改公共模块 `utils/client.py`，环境和评分不用动。
 
 \---
 
 ## 接 API
 
-目前支持 Bearer 认证 + Chat Completions 风格的 JSON 接口。别的协议要改 `client.py`。
+目前支持 Bearer 认证 + Chat Completions 风格的 JSON 接口。别的协议要改 `utils/client.py`。
 
 ```powershell
 $env:SOCIALEVO_BASE_URL = "https://你的服务商地址/v1"

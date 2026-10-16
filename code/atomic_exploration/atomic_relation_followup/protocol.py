@@ -4,7 +4,7 @@ from __future__ import annotations
 import importlib
 from pathlib import Path
 
-from quick_screen.runner import canonical, digest, stamp, write, BudgetStop
+from utils.io import canonical, digest, stamp, write, BudgetStop
 
 ROOT = Path(__file__).resolve().parents[1]
 MODULES = ('minesweeper_natural', 'menu', 'negotiation', 'kitchen', 'minesweeper_fact_advice')

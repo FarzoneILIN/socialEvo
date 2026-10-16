@@ -1,0 +1,119 @@
+{
+  "menu": {
+    "cases": 2,
+    "planned_slots": 99,
+    "recorded_slots": 99,
+    "saved_replies": 99,
+    "statuses": {
+      "saved": 99
+    },
+    "unrecorded_slots": 0,
+    "actual_attempts": 103,
+    "source_groups": [
+      {
+        "run": "definition_v1",
+        "case_ids": [
+          "T01_atomic_influence_menu_level_3_game_0016"
+        ]
+      },
+      {
+        "run": "followup_v1",
+        "case_ids": [
+          "menu_level_3_game_0024"
+        ]
+      }
+    ]
+  },
+  "minesweeper": {
+    "cases": 2,
+    "planned_slots": 152,
+    "recorded_slots": 152,
+    "saved_replies": 152,
+    "statuses": {
+      "saved": 152
+    },
+    "unrecorded_slots": 0,
+    "actual_attempts": 157,
+    "source_groups": [
+      {
+        "run": "followup_v1",
+        "case_ids": [
+          "minesweeper_fact_advice.board_00",
+          "minesweeper_natural.board_00"
+        ]
+      }
+    ]
+  },
+  "negotiation": {
+    "cases": 2,
+    "planned_slots": 105,
+    "recorded_slots": 105,
+    "saved_replies": 53,
+    "statuses": {
+      "saved": 53,
+      "skipped": 51,
+      "failed": 1
+    },
+    "unrecorded_slots": 0,
+    "actual_attempts": 62,
+    "source_groups": [
+      {
+        "run": "definition_v1",
+        "case_ids": [
+          "T02_atomic_dnd_pair_86"
+        ]
+      },
+      {
+        "run": "followup_v1",
+        "case_ids": [
+          "negotiation_record_87"
+        ]
+      }
+    ]
+  },
+  "kitchen": {
+    "cases": 2,
+    "planned_slots": 59,
+    "recorded_slots": 59,
+    "saved_replies": 56,
+    "statuses": {
+      "saved": 56,
+      "failed": 3
+    },
+    "unrecorded_slots": 0,
+    "actual_attempts": 62,
+    "source_groups": [
+      {
+        "run": "definition_v1",
+        "case_ids": [
+          "T03_atomic_kitchen_662eada8cae9d062"
+        ]
+      },
+      {
+        "run": "followup_v1",
+        "case_ids": [
+          "followup_kitchen_fbf8852532bfa7db"
+        ]
+      }
+    ]
+  },
+  "sudoku": {
+    "cases": 1,
+    "planned_slots": 32,
+    "recorded_slots": 8,
+    "saved_replies": 8,
+    "statuses": {
+      "saved": 8
+    },
+    "unrecorded_slots": 24,
+    "actual_attempts": 9,
+    "source_groups": [
+      {
+        "run": "sudoku_preflight",
+        "case_ids": [
+          "sudoku_01"
+        ]
+      }
+    ]
+  }
+}

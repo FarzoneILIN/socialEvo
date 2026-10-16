@@ -1,2 +1,2 @@
-# Statistical analysis and the retained public-data extractor.
+# Statistical analysis, menu scoring and the native kitchen engine.
 numpy
